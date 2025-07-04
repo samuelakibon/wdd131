@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        "header header"
+        "main aside"
+        "footer footer";
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto 250px auto;
+    gap: 0px;
+    padding: 10px;
+}
+
+header {
+    grid-area: header;
+    background: #555555;
+    padding: 20px;
+
+
+}
+
+h1 {
+    color: #f0f0f0;
+}
+
+header nav ul
+
+/* When styling the menu and you want the menu to be horizontal, style the ul then use flex as the display*/
+    {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+    padding: 1rem;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    margin-top: 30px;
+
+}
+
+header a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+
+
+}
+
+header a:hover {
+    color: tomato;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+header nav li
+
+/* Give the nav li a flex of 1 1 auto to give spacing to the navigation */
+    {
+    flex: 1 1 auto;
+
+}
+
+main {
+    grid-area: main;
+    background: #dcdcdc;
+    padding: 10px;
+}
+
+aside {
+    grid-area: aside;
+    background: #f0f0f0;
+    padding: 10px;
+
+}
+
+
+
+
+footer {
+    grid-area: footer;
+    background: #555555;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+
+footer p {
+    text-align: center;
+    color: #f0f0f0;
+}
