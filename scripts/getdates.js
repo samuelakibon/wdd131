@@ -1,0 +1,16 @@
+
+// I made the year constant using the ID - currentyear
+const year = document.querySelector("#currentyear");
+
+// I use the date object here
+
+const today = new Date();
+
+// Get the year
+
+year.innerHTML = `<span class="highlight">${today.getFullYear()}</span>`;
+
+
+// getdates.js
+const lastModifiedElement = document.getElementById("lastModified");
+lastModifiedElement.textContent = `Last Modified: ${document.lastModified}`;
