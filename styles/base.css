@@ -14,9 +14,7 @@
     --text-color: #dcdcdc;
     --heading-font: "Noto Sans", sans-serif;
     --another: rgba(165, 105, 75, 1);
-    --border: 1px solid #006ea1;
-    --text-Header: "Roboto", sans-serif;
-    --text-writing: "Calistoga", serif;
+
 
 }
 
@@ -68,7 +66,8 @@ header nav {
     justify-content: center;
     font-size: larger;
     font-weight: bolder;
-    font-family: var(--text-Header);
+    font-family: "Roboto",
+        sans-serif;
 }
 
 header nav ul
@@ -135,7 +134,8 @@ header nav li
     background-color: var(--primary-color);
     border-radius: 10px;
     height: 50px;
-    font-family: var(--text-writing);
+    font-family: "Calistoga",
+        serif;
 
 
 }
@@ -178,7 +178,7 @@ ul {
     width: 150px;
     margin-top: -10px;
     height: 140px;
-    border: var(--border);
+    border: 1px solid #006ea1;
     padding: 2px;
     box-shadow: 0 0 10px gray;
     float: right;
@@ -249,7 +249,8 @@ figcaption {
     color: var(--accent1-color);
     background-color: transparent;
     margin-top: 50px;
-    font-family: var(--text-writing);
+    font-family: "Calistoga",
+        serif;
 
 }
 
