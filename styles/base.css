@@ -63,7 +63,11 @@ header nav {
 @media (max-width: 800px) {
     nav ul {
         display: flex;
+
     }
+
+
+
 
 }
 
@@ -109,6 +113,7 @@ header a:hover {
     font-weight: 700;
     text-decoration: underline;
     font-size: 20px;
+    border: 1px solid #f0f0f0;
 }
 
 header nav li
