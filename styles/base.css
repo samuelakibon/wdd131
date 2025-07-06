@@ -61,6 +61,7 @@ header nav {
     margin: 0 auto;
 
 }
+
 #course-title {
     display: flex;
     align-self: center;
@@ -219,7 +220,6 @@ ul {
     box-shadow: 0 0 30px gray;
     float: left;
     margin-right: 30px;
-    opacity: tra;
     background-color: var(--secondary-color);
 }
 
