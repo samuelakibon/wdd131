@@ -55,8 +55,15 @@ header {
 
 
 header nav {
-    max-width: 800 px;
+
     margin: 0 auto;
+
+}
+
+@media (max-width: 800px) {
+    nav ul {
+        display: flex;
+    }
 
 }
 
