@@ -55,6 +55,12 @@ header {
 
 }
 
+
+header nav {
+    max-width: 800 px;
+    margin: 0 auto;
+
+}
 #course-title {
     display: flex;
     align-self: center;
@@ -95,7 +101,7 @@ header a:hover {
     color: var(--another);
     font-weight: 700;
     text-decoration: underline;
-    font-size: 21px;
+    font-size: 20px;
 }
 
 header nav li
