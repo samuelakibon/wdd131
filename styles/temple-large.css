@@ -1,0 +1,68 @@
+ @media screen and (min-width: 800px) {
+
+     header,
+     main,
+     footer {
+         max-width: 600%;
+         border: none;
+     }
+
+
+
+     .figure-container {
+         display: grid;
+         grid-template-columns: 1fr 1fr 1fr;
+
+     }
+
+
+     header {
+         display: flex;
+         justify-content: space-between;
+         /* spreads h1 and nav to edges */
+         align-items: center;
+         /* vertically centers items */
+         flex-wrap: wrap;
+         padding: 1rem;
+     }
+
+
+
+
+     .navigation {
+
+         display: flex !important;
+         flex-wrap: wrap;
+         flex-direction: row;
+         align-items: center;
+         justify-content: flex-end;
+         list-style: none;
+         color: #fff;
+         background-color: brown;
+     }
+
+
+
+     .navigation li {
+         display: inline-block;
+         flex: 1 1 100%;
+         background-color: none;
+     }
+
+
+     .navigation a {
+         display: block;
+         padding: 1rem;
+         text-align: center;
+         text-decoration: none;
+         color: #fff;
+     }
+
+
+     #menu {
+         display: none;
+     }
+
+
+
+ }
