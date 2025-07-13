@@ -29,149 +29,143 @@ footer {
     max-width: 800px;
     margin: 0 auto;
     margin: 1rem auto;
-    border: 1px solid #bbb;
     border-radius: 20px;
     padding: 1rem;
-    background-color: var(--background-color);
-}
+    background-color: var(--another);
+    }
 
-header {
-    background-color: var(--color);
-
-
-    /* h1 on left, nav on right */
-    flex-wrap: wrap;
-}
+    header {
+        background-color: var(--color);
 
 
+        /* h1 on left, nav on right */
+        flex-wrap: wrap;
+    }
 
 
-header h1 {
-    color: var(--another);
-    text-align: left;
-    font-size: 2rem;
-    font-family:
-        "Roboto",
+
+
+    header h1 {
+        color: var(--another);
+        text-align: left;
+        font-size: 2rem;
+        font-family: "Roboto",
         sans-serif;
-}
+    }
 
 
 
 
 
-/* small view navigation */
-#menu {
-    font-size: 2rem;
-    border: 0;
-    background: none;
-    color: var(--another);
-    position: absolute;
-    top: 2rem;
-    right: 1rem;
-}
+    /* small view navigation */
+    #menu {
+        font-size: 2rem;
+        border: 0;
+        background: none;
+        color: var(--another);
+        position: absolute;
+        top: 2rem;
+        right: 1rem;
+    }
 
-#menu::before {
-    content: "☰";
-}
-
-
-#menu.open::before {
-    content: "X";
-}
-
-.navigation {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    list-style: none;
-    color: #fff;
-    background-color: black;
-}
+    #menu::before {
+        content: "☰";
+    }
 
 
+    #menu.open::before {
+        content: "X";
+    }
 
-/* Removes bullet sings */
-.navigation ul {
-    list-style: none;
-}
+    .navigation {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        list-style: none;
+        color: #fff;
+        background-color: black;
+    }
 
-.navigation a {
-    display: none;
-    padding: 1rem;
-    text-align: center;
-    text-decoration: none;
-    color: #fff;
-    font-family:
-        "Calistoga",
+
+
+    /* Removes bullet sings */
+    .navigation ul {
+        list-style: none;
+    }
+
+    .navigation a {
+        display: none;
+        padding: 1rem;
+        text-align: center;
+        text-decoration: none;
+        color: #fff;
+        font-family: "Calistoga",
         serif;
-}
+    }
 
-.navigation a:hover {
-    background-color: #bbb;
-    color: #333;
-    font-weight: 700;
-}
-
-
-
-/* when the button is clicked - the open class is toggled (added/removed) */
-.open a {
-    display: block;
-}
-
-.active::before {
-    content: "📍";
-    /* just a wayfinding symbol for the user */
-}
+    .navigation a:hover {
+        background-color: #bbb;
+        color: #333;
+        font-weight: 700;
+    }
 
 
 
-main {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 1rem;
+    /* when the button is clicked - the open class is toggled (added/removed) */
+    .open a {
+        display: block;
+    }
+
+    .active::before {
+        content: "📍";
+        /* just a wayfinding symbol for the user */
+    }
 
 
-}
 
-main h1 {
-    text-align: center;
-    font-size: 2rem;
-    color: var(--color);
-    font-family:
-        "Roboto",
+    main {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 1rem;
+
+
+    }
+
+    main h1 {
+        text-align: center;
+        font-size: 2rem;
+        color: var(--color);
+        font-family: "Roboto",
         sans-serif;
-}
+    }
 
-main figure {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    main figure {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 
-}
+    }
 
-main figure figcaption {
+    main figure figcaption {
 
-    font-family:
-        "Calistoga",
+        font-family: "Calistoga",
         serif;
-}
+    }
 
-main figure img {
-    width: 90%;
-    height: auto;
-    border: var(--border);
-    border-radius: 5px;
-}
+    main figure img {
+        width: 90%;
+        height: auto;
+        border: 1px solid #bbb;
+        border-radius: 5px;
+    }
 
 
-footer {
-    text-align: center;
-    font-size: 0.8rem;
-    color: var(--another);
-    padding: 1rem;
-    background-color: var(--color);
-    font-family:
-        "Roboto",
+    footer {
+        text-align: center;
+        font-size: 0.8rem;
+        color: var(--another);
+        padding: 1rem;
+        background-color: var(--color);
+        font-family: "Roboto",
         sans-serif;
-}
+    }
