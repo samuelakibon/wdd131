@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <link rel="stylesheet" href="styles/place.css">
+    <script src="scripts/place.js" defer></script>
+    <title>Places</title>
+    <meta name="description" content="A collection of places">
+    <meta name="author" content="Samuel Akibon">
+</head>
+
+<body>
+    <header>
+        <h1>Nigeria</h1>
+
+    </header>
+
+
+    <main>
+        <div class="hero">
+
+            <picture>
+                <source srcset="images/hero-large.webp" media="(min-width: 1500px)">
+                <source srcset="images/hero-medium.webp" media="(min-width: 1000px)">
+                <img src="images/hero-small.webp" alt="Aba, Nigeria Temple" width="500" height="250">
+            </picture>
+        </div>
+
+
+        <table class="data-table">
+            <caption>Data</caption>
+
+            <tbody>
+                <tr>
+                    <th>Area:</th>
+                    <td>923,770 sq km</td>
+
+                </tr>
+                <tr>
+                    <th>Population:</th>
+
+                    <td>230,000,000</td>
+
+                </tr>
+                <tr>
+                    <th>Capital:</th>
+                    <td>Abuja</td>
+
+                </tr>
+                <tr>
+                    <th>Languages:</th>
+                    <td>English, indegenous</td>
+
+                </tr>
+                <tr>
+                    <th>Currency:</th>
+                    <td>Naira</td>
+
+                </tr>
+                <tr>
+                    <th>Time Zone:</th>
+                    <td>UTC +1</td>
+
+                </tr>
+                <tr>
+                    <th>Calling Code:</th>
+                    <td>+234</td>
+
+                </tr>
+                <tr>
+                    <th>Internet TLD:</th>
+                    <td>.ng</td>
+
+                </tr>
+
+            </tbody>
+        </table>
+
+
+
+        <table class="weather-table">
+            <caption class="weather-caption">Weather
+            </caption>
+
+            <tbody>
+                <tr>
+                    <td class="weather-icon">
+                        <img src="images/weather.svg" alt="Weather Icon">
+                    </td>
+                </tr>
+                <tr>
+                    <th>Temperature:</th>
+                    <td> 10 °C</td>
+
+                </tr>
+                <tr>
+                    <th>Conditions:</th>
+
+                    <td>Partly Cloudy</td>
+
+                </tr>
+                <tr>
+                    <th>Wind:</th>
+                    <td>5 km/h</td>
+
+                </tr>
+                <tr>
+                    <th>Wind Chill:</th>
+                    <td id="windChillValue">N/A</td>
+                </tr>
+
+
+
+            </tbody>
+        </table>
+
+
+
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> ❤️ Samuel Akibon ❤️ Lagos, Nigeria.</p>
+        <p id="lastModified"></p>
+
+    </footer>
+</body>
+
+</html>

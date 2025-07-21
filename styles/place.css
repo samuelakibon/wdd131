@@ -1,0 +1,87 @@
+:root {
+    --background-color: #006eb6;
+    --border: 18px solid brown;
+}
+
+
+
+
+
+
+
+
+
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+
+header,
+footer {
+    background-color: var(--background-color);
+}
+
+
+header {
+    text-align: center;
+    padding: 15px;
+    color: white;
+    border-bottom: var(--border);
+
+}
+
+
+
+footer {
+    color: white;
+    font-size: 0.8em;
+    padding: 18px;
+    text-align: center;
+}
+
+
+table caption {
+
+    text-align: center;
+    /* Center the text inside the caption */
+    width: 100%;
+    /* Makes the caption span full table width */
+    display: table-caption;
+    /* Ensures it's rendered as a table caption */
+    font-size: 3rem;
+
+}
+
+
+
+th,
+td {
+    padding: 1rem;
+    text-align: center;
+
+}
+
+
+
+
+table {
+    width: 50%;
+    /* Full width of the container */
+    max-width: 500px;
+    /* Maximum width for the table */
+    margin: 2rem auto;
+    /* Center the table */
+    border-collapse: collapse;
+
+    font-family: Arial, sans-serif;
+}
+
+.weather-icon img {
+    margin-right: -150px;
+    width: 100px;
+    height: 100px;
+
+
+}

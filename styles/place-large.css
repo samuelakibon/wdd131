@@ -1,0 +1,149 @@
+ @media screen and (min-width: 800px) {
+
+     * {
+         box-sizing: border-box;
+         margin: 0;
+         padding: 0;
+     }
+
+
+     :root {
+         --background-color: #006eb6;
+         --border: 18px solid brown;
+     }
+
+     main {
+
+         margin-bottom: -5px;
+
+     }
+
+
+
+     table caption {
+
+         text-align: left;
+         justify-items: flex-start;
+         /* Center the text inside the caption */
+         width: 100%;
+         /* Makes the caption span full table width */
+         display: table-caption;
+         /* Ensures it's rendered as a table caption */
+         font-size: 1rem;
+         background-color: brown;
+         color: white;
+
+
+     }
+
+
+
+     th,
+     td {
+         padding: 1rem;
+         text-align: center;
+
+
+     }
+
+
+
+
+     table {
+
+
+
+         background-color: #f5f5f5;
+         /* Light background for the table */
+         border-radius: 0px;
+         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+         overflow: hidden;
+         /* Ensures rounded corners are applied to the table */
+         font-family: Arial, sans-serif;
+         opacity: 68%;
+     }
+
+     .weather-icon img {
+         display: block;
+         margin: 0 auto;
+         width: 100px;
+         height: 100px;
+
+     }
+
+
+
+     .data-table {
+         position: absolute;
+         top: 200px;
+         margin: 20px;
+         width: 80%;
+         height: 50%;
+         max-width: 300px;
+
+     }
+
+
+     .weather-table {
+         position: absolute;
+         top: 400px;
+         left: 75%;
+
+
+         max-width: 300px;
+
+     }
+
+
+
+
+
+     .weather-icon img {
+         position: absolute;
+         top: -10%;
+
+
+         left: 73%;
+
+
+
+
+
+     }
+
+
+
+
+
+     .data-table th,
+     .data-table td {
+         padding: 10px;
+         text-align: center;
+     }
+
+     .data-table th {
+         background-color: #f2f2f2;
+         font-weight: bold;
+     }
+
+
+
+     .data-table td:hover {
+         background-color: var(--background-color);
+     }
+
+
+     .weather-table td:hover {
+         background-color: var(--background-color);
+     }
+
+     .weather-caption::after {
+         content: url("images/weather.svg");
+         display: inline-block;
+         width: 30px;
+         height: 30px;
+         margin-left: 10px;
+         vertical-align: middle;
+     }
+
+ }
