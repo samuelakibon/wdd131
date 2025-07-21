@@ -75,7 +75,8 @@ table {
     /* Center the table */
     border-collapse: collapse;
 
-    font-family: Arial, sans-serif;
+    font-family: "Roboto",
+        sans-serif;
 }
 
 .weather-icon img {

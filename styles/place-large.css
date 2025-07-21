@@ -59,7 +59,8 @@
          box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
          overflow: hidden;
          /* Ensures rounded corners are applied to the table */
-         font-family: Arial, sans-serif;
+         font-family: "Roboto",
+             sans-serif;
          opacity: 68%;
      }
 
