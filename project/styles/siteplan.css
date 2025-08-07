@@ -1,0 +1,329 @@
+@media screen and (max-width: 799px) {
+    .navigation-container {
+        display: none;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .navigation-container.open {
+        display: flex;
+    }
+
+    #menu {
+        display: block;
+    }
+
+    body,
+    header,
+    footer {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+
+    }
+
+    body {
+        background-color: gainsboro;
+        font-family: 'Roboto', sans-serif;
+        /* Body font */
+    }
+
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 35px;
+        background-color: #4caf50;
+        color: white;
+
+
+
+        /* h1 on left, nav on right */
+        flex-wrap: wrap;
+
+
+    }
+
+
+    h1,
+    span {
+        font-size: 24px;
+        font-weight: bold;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+
+    /* small view navigation */
+    #menu {
+        font-size: 2rem;
+        border: 0;
+        background: none;
+        color: #f5f5dc;
+        position: absolute;
+        top: 2rem;
+        right: 1rem;
+    }
+
+    #menu::before {
+        content: "☰";
+    }
+
+    #menu.open::before {
+        content: "X";
+    }
+
+
+    .navigation-container {
+        display: none;
+    }
+
+    .navigation-container.open {
+        display: block;
+    }
+
+
+    /* when the button is clicked - the open class is toggled (added/removed) */
+    .open a {
+        display: block;
+    }
+
+    .active::before {
+        content: "📍";
+        /* just a wayfinding symbol for the user */
+    }
+
+
+
+    .navigation-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        list-style: none;
+
+    }
+
+    .navigation-container a {
+        display: none;
+        padding: 1rem;
+        text-align: center;
+        text-decoration: none;
+    }
+
+
+        .open a {
+            display: block;
+        }
+
+
+
+
+
+
+
+
+
+
+
+    .navigation-container ul {
+        list-style: none;
+
+
+        gap: 40px;
+    }
+
+
+    .navigation-container ul li a {
+        text-decoration: none;
+        font-size: 20px;
+        color: gainsboro;
+        font-weight: bolder;
+        font-family: 'Roboto', sans-serif;
+    }
+
+
+    .navigation-container ul li a:hover {
+        text-decoration: none;
+        background-color: #f5f5dc;
+        padding: 10px;
+        border-radius: 30px;
+
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+
+
+
+
+    .site-name {
+        background-color: #f5f5dc;
+        margin-top: 2%;
+
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.1);
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    p em,
+    cite {
+        margin-right: 60px;
+        font-style: italic;
+    }
+
+
+    .site-logo {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+
+    h2 {
+        color: #4caf50;
+        font-size: 24px;
+        font-weight: bold;
+        font-family: 'Montserrat', sans-serif;
+        /* Heading font */
+    }
+
+
+    .site-purpose {
+        background-color: #f5f5dc;
+        margin-top: 4%;
+        height: 400px;
+        margin-bottom: 4%;
+
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.1);
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+
+
+
+
+
+    }
+
+
+
+    .site-scenarios {
+        background-color: #f5f5dc;
+
+
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.1);
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+
+    .site-scenarios ul {
+        display: flex;
+        flex-direction: column;
+
+        gap: 10px;
+    }
+
+
+
+
+    .schema-used section {
+
+        background-color: #f5f5dc;
+        margin-top: 5%;
+
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.1);
+
+
+
+    }
+
+    .schema-used section h2 {
+        margin-bottom: 20px;
+        color: #4caf50;
+        font-size: 24px;
+        font-weight: bold;
+
+    }
+
+    .schema-used section ul {
+
+        padding-left: 0;
+    }
+
+
+    #color-schema {
+        height: auto;
+        margin-bottom: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #color-schema ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+
+    #typography ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+
+    #typography {
+
+        height: auto;
+        margin-bottom: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+
+    footer {
+        align-items: center;
+        padding: 35px;
+        text-align: center;
+        background-color: #4caf50;
+        color: white;
+
+
+    }
+
+    footer span {
+        font-size: 16px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+
+
+}
