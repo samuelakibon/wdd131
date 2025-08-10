@@ -1,0 +1,151 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+h1 {
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+/* Form container */
+.product-review-form {
+    background: white;
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Labels & legends */
+.product-review-form legend {
+    color: #9c2c13;
+    font-weight: bold;
+}
+
+.product-review-form label {
+    display: block;
+    margin-top: 1rem;
+    color: #333;
+    font-weight: bold;
+    font-size: 0.95rem;
+}
+
+.product-review-form div {
+    margin-top: 1rem;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Inputs & selects */
+.product-review-form select,
+.product-review-form input[type="date"],
+.product-review-form input[type="text"],
+.product-review-form textarea {
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: .6rem;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin-top: .3rem;
+    font-size: 0.95rem;
+}
+
+/* Radio & checkbox alignment */
+.product-review-form input[type="radio"],
+.product-review-form input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+.product-review-form fieldset label {
+    display: inline-block;
+    margin-right: 15px;
+    font-weight: normal;
+    color: #555;
+}
+
+/* Submit button */
+.product-review-form input[type="submit"] {
+    display: block;
+    background-image: linear-gradient(#9c2c13, #6f200e);
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 0.8rem;
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 100%;
+}
+
+.product-review-form input[type="submit"]:hover {
+    background-image: linear-gradient(#b5361c, #7f2610);
+}
+
+/* Required field indicator (subtle) */
+.product-review-form input:required {
+    border-left: 4px solid red;
+}
+
+.product-review-form input:required:valid {
+    border-left: 4px solid green;
+}
+
+/* Footer */
+footer {
+    background-color: green;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+/* Review */
+
+.thanks-container {
+    background: white;
+    max-width: 500px;
+    margin: 60px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+#reviewCounter {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+a {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: darkgreen;
+}

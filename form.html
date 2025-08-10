@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="stylesheet" href="styles/form-large.css">
+    <script src="scripts/form.js" defer></script>
+    <title>WDD 131 - FORM </title>
+</head>
+
+<body>
+
+    <h1>Product Review</h1>
+    <form class="product-review-form" method="get" action="review.html">
+
+
+        <label for="product"> Product Name</label>
+        <select id="productName" name="productName" required>
+
+            <option value="" disabled selected>Select a product</option>
+            <option value="flux-capacitor">Flux Capacitor</option>
+            <option value="power-laces">Power laces</option>
+            <option value="time-circus">Time Circus</option>
+            <option value="low-voltage-reactor">Low voltage Reactor</option>
+            <option value="wrap-equalizer">Wrap Equalizer</option>
+        </select>
+
+        <fieldset>
+            <legend>Overall Rating</legend>
+            <label>
+                <input type="radio" name="rating" value="1" id="" required>1</label>
+            </label>
+            <label>
+                <input type="radio" name="rating" value="2" id="" required>2</label>
+            </label>
+            <label>
+                <input type="radio" name="rating" value="3" id="" required>3</label>
+            </label>
+            <label>
+                <input type="radio" name="rating" value="4" id="" required>4</label>
+            </label>
+            <label>
+                <input type="radio" name="rating" value="5" id="" required>5</label>
+
+        </fieldset>
+
+
+
+        <label for="date">Date of Installation*</label>
+        <input type="date" id="date" name="date" value="2023-10-01" required>
+
+
+
+        <div>Which features did you find useful in the product?</div>
+        <p>(Check all that apply)</p>
+
+        <label>
+            <input type="checkbox" id="checkbox" name="checkbox" value="yes">Durability</label>
+        </label>
+        <label>
+            <input type="checkbox" id="checkbox" name="checkbox" value="yes">Ease of Use</label>
+        </label>
+        <label>
+            <input type="checkbox" id="checkbox" name="checkbox" value="yes">Performance</label>
+        <label>
+            <input type="checkbox" id="checkbox" name="checkbox" value="yes">Design</label>
+
+
+
+
+        <label>Written Review(optional)
+            <textarea id="review" name="review" rows="5"></textarea></label>
+
+        <label>User Name(optiona)
+            <input type="text" id="userName" name="userName" placeholder="Your Name"></label>
+        </label>
+
+        <input type="submit" value="Post my Review">
+
+    </form>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> ❤️ Samuel Akibon ❤️ Lagos, Nigeria.</p>
+        <p id="lastModified"></p>
+
+    </footer>
+
+</body>
+
+</html>
