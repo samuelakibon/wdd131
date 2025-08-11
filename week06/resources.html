@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skill Empowerment - Resources</title>
+    <meta name="description" content="Explore our skill-building resources, tutorials, and guides to help you grow.">
+    <meta name="author" content="Samuel Akibon">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+    <!-- JS -->
+    <script src="scripts/main.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1 id="site-header">Skill Empowerment</h1>
+        <button id="menu" aria-label="Toggle Navigation Menu"></button>
+        <nav class="navigation-container" id="navMenu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resources.html" class="active">Resources</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="references.html">References</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="resources-intro">
+            <h2>Our Learning Resources</h2>
+            <p>Browse through our skill categories. Click on a category to expand and see available tutorials and
+                guides.</p>
+        </section>
+
+        <!-- JS will populate this section -->
+        <section id="resources-container" class="resources-list">
+            <!-- Dynamically generated categories will appear here -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> ❤️ Samuel Akibon ❤️ Lagos, Nigeria.</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>

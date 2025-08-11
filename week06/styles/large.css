@@ -1,0 +1,51 @@
+@media screen and (min-width: 800px) {
+
+    /* Layout containers */
+    header,
+    main,
+    footer {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    /* Header adjustments */
+    #menu {
+        display: none;
+    }
+
+    .navigation-container {
+        display: flex !important;
+        flex-direction: row;
+        gap: 2rem;
+        background: none;
+    }
+
+    .navigation-container ul {
+        display: flex;
+        list-style: none;
+        gap: 2rem;
+    }
+
+    .navigation-container a {
+        padding: 0.25rem 0.5rem;
+    }
+
+    /* Featured skills grid in 3 columns */
+    .skills-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+    }
+
+    /* Resources list side-by-side if desired */
+    .resources-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+
+    /* Form width limit */
+    form {
+        max-width: 600px;
+    }
+}

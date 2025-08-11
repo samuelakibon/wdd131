@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skill Empowerment - Contact</title>
+    <meta name="description" content="Get in touch with Skill Empowerment to join training programs or ask questions.">
+    <meta name="author" content="Samuel Akibon">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+    <!-- JS -->
+    <script src="scripts/main.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1 id="site-header">Skill Empowerment</h1>
+        <button id="menu" aria-label="Toggle Navigation Menu"></button>
+        <nav class="navigation-container" id="navMenu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+                <li><a href="references.html">References</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-intro">
+            <h2>Get in Touch</h2>
+            <p>Have questions, feedback, or want to join our training programs? Fill out the form below and we’ll get
+                back to you.</p>
+        </section>
+
+        <section class="contact-form-section">
+            <form id="contactForm" novalidate>
+                <!-- Name -->
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your full name" required>
+
+                <!-- Email -->
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+                <!-- Skill Interests -->
+                <fieldset>
+                    <legend>Skill Interests:</legend>
+                    <label><input type="checkbox" name="skills" value="Soft Skills"> Soft Skills</label>
+                    <label><input type="checkbox" name="skills" value="Technical Skills"> Technical Skills</label>
+                    <label><input type="checkbox" name="skills" value="Professional Skills"> Professional Skills</label>
+                </fieldset>
+
+                <!-- Message -->
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" placeholder="Write your message here"></textarea>
+
+                <!-- Submit -->
+                <button type="submit">Send Message</button>
+            </form>
+
+            <!-- Confirmation Message -->
+            <p id="formMessage" class="hidden"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> ❤️ Samuel Akibon ❤️ Lagos, Nigeria.</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>
