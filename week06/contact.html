@@ -4,6 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles/skill.css">
+    <link rel="stylesheet" href="styles/skill-large.css">
+
+    <script src="scripts/skill.js" defer></script>
     <title>Skill Empowerment - Contact</title>
     <meta name="description" content="Get in touch with Skill Empowerment to join training programs or ask questions.">
     <meta name="author" content="Samuel Akibon">
@@ -12,12 +17,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto&display=swap"
         rel="stylesheet">
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="styles/small.css">
-    <link rel="stylesheet" href="styles/large.css">
-
-    <!-- JS -->
-    <script src="scripts/main.js" defer></script>
 </head>
 
 <body>
@@ -37,18 +36,18 @@
     <main>
         <section class="contact-intro">
             <h2>Get in Touch</h2>
-            <p>Have questions, feedback, or want to join our training programs? Fill out the form below and we’ll get
+            <p>Have questions, feedback, or want to join our training programs? Fill out the form below and we will get
                 back to you.</p>
         </section>
 
         <section class="contact-form-section">
-            <form id="contactForm" novalidate>
+            <form id="contactForm" class="contact-form ">
                 <!-- Name -->
-                <label for="name">Full Name:</label>
+                <label for="name">Full Name *</label>
                 <input type="text" id="name" name="name" placeholder="Your full name" required>
 
                 <!-- Email -->
-                <label for="email">Email Address:</label>
+                <label for="email">Email Address *</label>
                 <input type="email" id="email" name="email" placeholder="you@example.com" required>
 
                 <!-- Skill Interests -->
@@ -61,10 +60,10 @@
 
                 <!-- Message -->
                 <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="4" placeholder="Write your message here"></textarea>
+                <textarea id="message" name="message" rows="7" placeholder="Write your message here"></textarea>
 
                 <!-- Submit -->
-                <button type="submit">Send Message</button>
+                <input type="submit" value="Send a Message">
             </form>
 
             <!-- Confirmation Message -->

@@ -163,36 +163,91 @@ main section {
     display: none;
 }
 
-/* Contact form */
-form {
-    display: flex;
-    flex-direction: column;
-    gap: 0.75rem;
+/* FORM */
+
+.contact-form fieldset {
+    margin: 2rem 0;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: .5rem 2%;
 }
 
-label,
-legend {
-    font-weight: bold;
+.contact-form legend {
+    color: #445ba9;
+    padding: 0 .5rem;
 }
 
-input,
-textarea,
-button {
-    padding: 0.5rem;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+.contact-form label {
+    display: block;
+    padding-top: 1rem;
+    color: #9c2c13;
+    font-size: .9rem;
 }
 
-button {
-    background-color: #2e7d32;
-    color: white;
-    cursor: pointer;
+.contact-form div {
+    padding-top: 1rem;
+    color: #445ba9;
+    font-size: .9rem;
+
+}
+
+
+
+.contact-form input[type="tel"],
+.contact-form input[type="email"],
+.contact-form input[type="url"],
+.contact-form input[type="date"],
+.contact-form select,
+.contact-form textarea,
+.contact-form input[type="number"],
+.contact-form input[type="text"] {
+    background-color: #eee;
+    display: block;
+    border: solid 1px #999;
+    border-radius: 6px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 400px;
+    appearance: none;
+
+
+}
+
+
+.contact-form input[type="radio"],
+.contact-form input[type="checkbox"] {
+    margin-right: 6px;
+}
+
+
+.contact-form input[type="submit"] {
     border: none;
+    background-image: linear-gradient(#9c2c13, #6f200e);
+    color: #fff;
+    border-radius: 6px;
+    padding: .8rem;
+    width: 96%;
+    max-width: 400px;
+    margin-top: 4%;
+    box-shadow: 1px 1px 4px #999;
+
 }
 
-button:hover {
-    background-color: #256628;
+
+
+
+.contact-form input:required {
+    border-bottom: solid 8px red;
 }
+
+
+.contact-form input:required:valid {
+    border-bottom: solid 8px green;
+}
+
+
+
 
 .hidden {
     display: none;
