@@ -25,7 +25,7 @@ h1,h2,h3 {
 }
 
 
-#course-title {
+header #course-title {
     display: block;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
@@ -44,7 +44,7 @@ h1,h2,h3 {
 
 
 
-.navigation ul{
+header .navigation ul{
     display: flex;
     flex-wrap: wrap;
     list-style: none;
@@ -59,20 +59,20 @@ h1,h2,h3 {
 
 
 
-.navigation ul li{
+header .navigation ul li{
     flex: 1 1 auto;
     text-align: center;
 }
     
 
-.navigation ul li a {
+header .navigation ul li a {
     text-decoration: none;
     display: inline-block;
     color: azure;
 }
 
 
-.navigation ul li a:hover {
+header .navigation ul li a:hover {
 
     background-color: yellowgreen;
     font-size: large;
