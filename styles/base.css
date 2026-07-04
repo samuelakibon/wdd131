@@ -3,7 +3,10 @@
     padding: 0;
 }
 
-
+header,main,footer {
+    padding: 0;
+    margin: 0;
+}
 
 
 
