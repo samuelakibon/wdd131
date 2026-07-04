@@ -75,7 +75,7 @@ header .navigation ul li a {
 header .navigation ul li a:hover {
 
     background-color: yellowgreen;
-    font-size: large;
+    font-size: 17px;
 }
 
 main {
@@ -174,7 +174,3 @@ footer {
 }
 
 
-
-.highlight {
-	
-}
