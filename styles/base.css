@@ -26,7 +26,7 @@ h1,h2,h3 {
 }
 
 
-#course-title {
+header #course-title {
     display: block;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
