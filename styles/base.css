@@ -3,11 +3,10 @@
     padding: 0;
 }
 
-header,main,footer {
-    padding: 0;
-    margin: 0;
+header {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
 }
-
 
 
 p {
@@ -26,7 +25,7 @@ h1,h2,h3 {
 }
 
 
-header #course-title {
+#course-title {
     display: block;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
