@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+
+figure img {
+    width: 200px;
+    height: auto;
+}
+
+
+header, footer {
+
+    background-color: #663399;
+
+}
+
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: space-around;
+    align-items: center;
+    left: 200%;
+    
+
+}
