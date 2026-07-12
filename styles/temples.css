@@ -12,6 +12,8 @@
 header, footer {
 
     background-color: #663399;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
 
 }
 
@@ -69,6 +71,10 @@ nav {
 main {
     max-width: 800px;
     margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    
+
 }
 
 .container {
@@ -128,12 +134,6 @@ nav ul {
 
 
 
-main {
-    display: grid;
-    grid-template-columns: 1fr;
-    
-
-}
 
 
 
@@ -143,6 +143,10 @@ main h1 {
 
     padding: 10px;
     margin: 15px; 
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 2em;
     
 }
 
@@ -154,6 +158,10 @@ figure img {
 
 figure {
     text-align: center;
+    font-family: "Yuyu Short", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: larger;
 }
 
 
