@@ -12,19 +12,25 @@
 </head>
 <body>
     <header>
-        <span> Temple Album <span>
-        <nav>
-            <ul>
-                <li> <a href="#">Home</a></li>
-                <li> <a href="#">Old</a></li>
-                <li> <a href="#">New</a></li>
-                <li> <a href="#">Large</a></li>
-                <li> <a href="#">Small</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <span> Temple Album </span>
+
+            <button id="menu" aria-label="Toggle navigation"></button>
+
+            <nav>
+                <ul class="navigation">
+                    <li> <a href="#" class="active">Home</a></li>
+                    <li> <a href="#">Old</a></li>
+                    <li> <a href="#">New</a></li>
+                    <li> <a href="#">Large</a></li>
+                    <li> <a href="#">Small</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main>
         <h1>Home</h1>
+        
         <figure>
             <img src="images/abidjan.webp" alt="Abidjan Temple">
             <figcaption>Abdijan Temple</figcaption>
@@ -75,7 +81,7 @@
          <div class="first">
         <p>©️<span id="currentyear"></span> 🪽Samuel Akibon🪽Nigeria</p>
         </div>
-        <p><span id="lastModified"></span>
+        <p><span id="lastModified"></span></p>
     </footer>
 </body>
 </html>

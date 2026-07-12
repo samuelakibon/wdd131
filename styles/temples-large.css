@@ -1,0 +1,46 @@
+@media screen and (min-width: 500px) {
+    
+    nav {
+        width: auto;
+    }
+
+
+	.navigation {
+		flex-direction: row;
+	}
+
+	.navigation a {
+		display: block;
+		flex: 1 1 100%;
+	}
+
+    .navigation li {
+    display: block;
+
+
+    }
+
+
+    main {
+        grid-template-columns: repeat(3, 1fr);
+     
+
+    }
+
+    main h1 {
+           grid-column: 1/4;
+    }
+
+
+
+    #menu {
+        display: none;
+    }
+
+
+
+
+
+
+
+}
