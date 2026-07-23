@@ -6,6 +6,7 @@
     --body-color: #555;
     --Heading-font: "Poppins", sans-serif;
     --body-font: "Inter", sans-serif;
+    --hr-color: #26A69A;
     
 
 
@@ -50,6 +51,15 @@ main {
 }
 
 
+  
+
+hr {
+  height:15px;
+  background-color: var(--hr-color);
+  border: none;
+  
+
+}
 
 
 .hero img {
