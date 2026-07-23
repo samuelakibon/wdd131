@@ -6,6 +6,11 @@
         height: auto;
     }
 
+    .heading::after {
+        font-size: 19px;
+
+    }
+
 
     .aside-heading {
         position: absolute;
