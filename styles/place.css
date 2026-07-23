@@ -107,6 +107,11 @@ aside p {
 }
 
 
+.weather-img img {
+  width: 70px;
+  height: auto;
+}
+
 
 
 
