@@ -1,0 +1,51 @@
+@media screen and (min-width: 768px) {
+    
+    nav {
+        width: auto;
+    }
+
+
+	.navigation {
+		flex-direction: row;
+	}
+
+	.navigation a {
+		display: block;
+		flex: 1 1 100%;
+	}
+
+    .navigation li {
+    display: block;
+
+
+    }
+
+    .img-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+
+    main {
+        grid-template-columns: repeat(3, 1fr);
+     
+
+    }
+
+    main h1 {
+           grid-column: 1/4;
+    }
+
+
+
+    #menu {
+        display: none;
+    }
+
+
+
+
+
+
+
+}

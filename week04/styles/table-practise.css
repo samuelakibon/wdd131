@@ -1,0 +1,58 @@
+table {
+    margin: 10px;
+    border: thin solid grey;
+    box-shadow: 0 0 10px green;
+    border-collapse: collapse;
+    width: 400px;
+    height: 140px;
+
+    
+}
+
+
+caption {
+  padding: 10px;
+  caption-side: bottom;
+	color: black;
+	font-size: .85rem;
+}
+
+tr:first-child th{
+  background-color: black;
+  
+}
+
+thead tr th {
+  background-color: grey;
+  border: none;
+}
+
+.empty {
+  background-color: black;
+}
+
+
+th, td {
+	padding: 7px 15px;
+	border: 1px solid #e0e0e0; /* A soft, light gray */
+}
+
+th {
+	font-size: larger;
+  color: beige;
+}
+
+td {
+	text-align: center;
+}
+
+
+tbody {
+  font-size: larger;
+}
+
+tbody tr:nth-child(2) {
+  background-color: lavender;
+
+}
+
