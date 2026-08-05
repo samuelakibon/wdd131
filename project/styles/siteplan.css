@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: 'Poppins'  serif;
+    font-family: Poppins  serif;
 }
 
 
@@ -25,14 +25,14 @@ header h1 {
     text-align: center;
     color: #ffffff;
     font-size: xxx-large;
-    font-weight: 10px;
+    
     
     
     
 }
 
 p {
-    font-family: 'Roboto' sans-serif;
+    font-family: Roboto sans-serif;
     padding: 05px;
     font-size: medium;
     padding-left: 15px;
