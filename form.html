@@ -1,16 +1,178 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Samuel Akibon">
-    <meta name="description" content="This is an HTML Product Review Form">
+    <meta name="description" content="Product review form for submitting a review about a product.">
     <link rel="stylesheet" href="styles/form.css">
-    <script src="scripts/form.js"></script>
-
+    <script src="scripts/form.js" defer></script>
     <title>Product Review Form</title>
 </head>
+
 <body>
-    
+
+    <header>
+        <h1>Product Review</h1>
+    </header>
+
+    <main>
+        <form method="get" action="review.html" class="wf1">
+
+            <fieldset>
+                <legend>Product Name</legend>
+
+                
+                <select id="product-name" name="product-name" required>
+                    <option value="" disabled selected>Select a Product ...</option>
+                </select>
+            </fieldset>
+
+
+            <fieldset>
+                <legend>Overall Rating</legend>
+
+                <div class="radio-row">
+
+                    <label for="onestar">
+                        &star;
+                        <input type="radio" id="onestar" name="rating" value="1" required>
+                    </label>
+
+                    <label for="twostar">
+                        &star;&star;
+                        <input type="radio" id="twostar" name="rating" value="2" required>
+                    </label>
+
+                    <label for="threestar">
+                        &star;&star;&star;
+                        <input type="radio" id="threestar" name="rating" value="3" required>
+                    </label>
+
+                    <label for="fourstar">
+                        &star;&star;&star;&star;
+                        <input type="radio" id="fourstar" name="rating" value="4" required>
+                    </label>
+
+                    <label for="fivestar">
+                        &star;&star;&star;&star;&star;
+                        <input type="radio" id="fivestar" name="rating" value="5" required>
+                    </label>
+
+                </div>
+            </fieldset>
+
+
+            <fieldset>
+
+                <label for="dateOfCompletion" class="date-label">
+                    Date of Installation
+                </label>
+
+                <input
+                    type="date"
+                    id="dateOfCompletion"
+                    name="dateOfCompletion"
+                    required
+                >
+            </fieldset>
+
+
+            <fieldset>
+                
+                <div>Which features did you find useful in the product?</div>
+                <div>(Check all that apply)</div>
+
+                <label for="durability">
+                    <input
+                        type="checkbox"
+                        id="durability"
+                        name="features"
+                        value="Durability"
+                    >
+                    Durability
+                </label>
+
+                <label for="ease">
+                    <input
+                        type="checkbox"
+                        id="ease"
+                        name="features"
+                        value="Ease of Use"
+                    >
+                    Ease of Use
+                </label>
+
+                <label for="performance">
+                    <input
+                        type="checkbox"
+                        id="performance"
+                        name="features"
+                        value="Performance"
+                    >
+                    Performance
+                </label>
+
+                <label for="design">
+                    <input
+                        type="checkbox"
+                        id="design"
+                        name="features"
+                        value="Design"
+                    >
+                    Design
+                </label>
+
+            </fieldset>
+
+
+            <fieldset>
+                <legend>Written Review (Optional)</legend>
+
+               
+
+                <textarea
+                    id="user-review"
+                    name="written-review"
+                    rows="6"
+                ></textarea>
+
+            </fieldset>
+
+
+            <fieldset>
+                <legend>Your Name (Optional)</legend>
+
+               
+
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                >
+
+            </fieldset>
+
+
+            <input type="submit" value="Post My Review">
+
+        </form>
+    </main>
+
+
+    <footer>
+        <div class="first">
+            <p>
+                ©️<span id="currentyear"></span>
+                🪽Samuel Akibon🪽 Nigeria
+            </p>
+        </div>
+
+        <p>
+            <span id="lastModified"></span>
+        </p>
+    </footer>
+
 </body>
 </html>
