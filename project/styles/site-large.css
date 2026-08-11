@@ -1,0 +1,259 @@
+/* =========================================================
+   COUNTWISE INVENTORY SERVICES
+   LARGE SCREEN STYLES
+   ========================================================= */
+
+
+@media screen and (min-width: 800px) {
+
+
+    /* ---------- SHARED CONTAINERS ---------- */
+
+    .section-container {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+
+
+    /* ---------- HEADER ---------- */
+
+    .header-container {
+        min-height: 85px;
+    }
+
+
+    .menu-button {
+        display: none;
+    }
+
+
+    .primary-navigation {
+        position: static;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 0.5rem;
+        border: none;
+        box-shadow: none;
+    }
+
+
+    .primary-navigation a {
+        padding: 0.6rem 1rem;
+        border-radius: 5px;
+    }
+
+
+    /* ---------- TYPOGRAPHY ---------- */
+
+    h1 {
+        font-size: 3.4rem;
+    }
+
+
+    h2 {
+        font-size: 2.3rem;
+    }
+
+
+    h3 {
+        font-size: 1.25rem;
+    }
+
+
+    /* ---------- HERO ---------- */
+
+    .home-hero {
+        min-height: 650px;
+    }
+
+
+    .home-hero img {
+        height: 650px;
+    }
+
+
+    .hero-content {
+        width: min(100% - 4rem, var(--max-width));
+    }
+
+
+    .hero-content p:not(.eyebrow) {
+        font-size: 1.15rem;
+    }
+
+
+    /* ---------- HOME INTRODUCTION ---------- */
+
+    .home-introduction {
+        padding-right: 8%;
+        padding-left: 8%;
+    }
+
+
+    /* ---------- SERVICES ---------- */
+
+    .service-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+
+
+    .service-card {
+        padding: 2rem;
+    }
+
+
+    /* ---------- ACCURACY SECTION ---------- */
+
+    .accuracy-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 5rem;
+        align-items: center;
+    }
+
+
+    /* ---------- IMAGE CONTENT ---------- */
+
+    .image-content-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 4rem;
+    }
+
+
+    .image-content-image {
+        order: 1;
+    }
+
+
+    .image-content-text {
+        order: 2;
+    }
+
+
+    /* ---------- CALL TO ACTION ---------- */
+
+    .cta-container {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+
+
+    /* ---------- FOOTER ---------- */
+
+    .footer-container {
+        grid-template-columns: 2fr 1fr 1fr;
+        gap: 4rem;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+
+
+    .footer-bottom {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-right: max(1rem, calc((100% - var(--max-width)) / 2));
+        padding-left: max(1rem, calc((100% - var(--max-width)) / 2));
+    }
+
+
+    /* ---------- CONFIRMATION PAGE ---------- */
+
+    .confirmation-container {
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+    }
+
+
+    .confirmation-details {
+        padding-top: 4rem;
+        padding-bottom: 5rem;
+    }
+
+
+    .confirmation-card {
+        padding: 2.5rem;
+    }
+
+
+    .review-counter {
+        padding: 2rem;
+    }
+
+    /* ---------- SERVICES PAGE ---------- */
+
+    .page-hero .section-container {
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+    }
+
+
+    .service-detail-card {
+        grid-template-columns: 70px 1fr;
+        gap: 2rem;
+        padding: 2.5rem;
+    }
+
+
+    .service-detail-number {
+        width: 55px;
+        height: 55px;
+    }
+
+
+    .benefit-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+    }
+
+
+    .benefit-card {
+        padding: 2rem;
+    }
+
+
+        /* ---------- CONFIRMATION PAGE ---------- */
+
+    .confirmation-hero {
+        padding: 6rem 0;
+    }
+
+    .confirmation-card {
+        padding: 3rem;
+    }
+
+    .confirmation-actions {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .confirmation-actions .primary-button,
+    .confirmation-actions .secondary-button {
+        flex: 1;
+    }
+
+
+
+}
+
+
+
+
+    
+
+
+
+
+
+
+
+        
+
+
+    
+
+    

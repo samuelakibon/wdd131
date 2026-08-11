@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Samuel Akibon">
+    <meta
+        name="description"
+        content="Contact CountWise Inventory Services to request stock counting, inventory auditing, warehouse organization, or inventory management support."
+    >
+
+    <meta
+        property="og:title"
+        content="Contact CountWise Inventory Services"
+    >
+    <meta
+        property="og:description"
+        content="Send CountWise an inventory service request and tell us how we can help."
+    >
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:wght@400;500;600&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="styles/site.css">
+    <link rel="stylesheet" href="styles/site-large.css">
+
+    <script src="scripts/site.js" defer></script>
+
+    <title>Contact | CountWise Inventory Services</title>
+</head>
+
+<body>
+
+    <header class="site-header">
+
+        <div class="header-container">
+
+            <a
+                class="brand"
+                href="index.html"
+                aria-label="CountWise Inventory Services home"
+            >
+                <span class="brand-icon" aria-hidden="true">✓</span>
+
+                <span class="brand-text">
+                    <span class="brand-name">CountWise</span>
+                    <span class="brand-subtitle">Inventory Services</span>
+                </span>
+            </a>
+
+
+            <button
+                class="menu-button"
+                type="button"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+                aria-controls="primary-navigation"
+            >
+                ☰
+            </button>
+
+
+            <nav
+                class="primary-navigation"
+                id="primary-navigation"
+                aria-label="Main navigation"
+            >
+                <a href="index.html">Home</a>
+                <a href="services.html">Services</a>
+                <a class="active" href="contact.html">Contact</a>
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <!-- PAGE INTRODUCTION -->
+
+        <section class="page-hero" aria-labelledby="contact-heading">
+
+            <div class="section-container">
+
+                <p class="eyebrow">Get Started</p>
+
+                <h1 id="contact-heading">
+                    Tell Us About Your Inventory Needs
+                </h1>
+
+                <p>
+                    Complete the form below and provide some information
+                    about the inventory support you need.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTACT CONTENT -->
+
+        <section
+            class="contact-section"
+            aria-labelledby="request-heading"
+        >
+
+            <div class="section-container contact-grid">
+
+                <div class="contact-information">
+
+                    <p class="eyebrow">Inventory Support</p>
+
+                    <h2 id="request-heading">
+                        How Can CountWise Help?
+                    </h2>
+
+                    <p>
+                        Whether you need a physical stock count, an inventory
+                        audit, warehouse organization, or general inventory
+                        management support, provide some details about your
+                        needs and we will review your request.
+                    </p>
+
+                    <div class="contact-note">
+
+                        <h3>
+                            What to include
+                        </h3>
+
+                        <ul>
+                            <li>The type of inventory service required</li>
+                            <li>Your approximate inventory size</li>
+                            <li>Your preferred service date</li>
+                            <li>Any important information about the request</li>
+                        </ul>
+
+                    </div>
+
+                </div>
+
+
+                <!-- FORM -->
+
+                <div class="contact-form-container">
+
+                    <form
+                        class="inventory-form"
+                        action="confirmation.html"
+                        method="get"
+                    >
+
+                        <fieldset>
+
+                            <legend>
+                                Your Information
+                            </legend>
+
+
+                            <label for="name">
+                                Full Name
+                                <span class="required-text">(required)</span>
+                            </label>
+
+                            <input
+                                type="text"
+                                id="name"
+                                name="name"
+                                autocomplete="name"
+                                required
+                            >
+
+
+                            <label for="company">
+                                Company Name
+                                <span class="required-text">(required)</span>
+                            </label>
+
+                            <input
+                                type="text"
+                                id="company"
+                                name="company"
+                                autocomplete="organization"
+                                required
+                            >
+
+
+                            <label for="email">
+                                Email Address
+                                <span class="required-text">(required)</span>
+                            </label>
+
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                autocomplete="email"
+                                required
+                            >
+
+
+                            <label for="phone">
+                                Phone Number
+                            </label>
+
+                            <input
+                                type="tel"
+                                id="phone"
+                                name="phone"
+                                autocomplete="tel"
+                            >
+
+                        </fieldset>
+
+
+                        <fieldset>
+
+                            <legend>
+                                Service Request
+                            </legend>
+
+
+                            <label for="service">
+                                Service Needed
+                                <span class="required-text">(required)</span>
+                            </label>
+
+                            <select
+                                id="service"
+                                name="service"
+                                required
+                            >
+                                <option
+                                    value=""
+                                    disabled
+                                    selected
+                                >
+                                    Select a service ...
+                                </option>
+                            </select>
+
+
+                            <label for="inventory-size">
+                                Approximate Inventory Size
+                                <span class="required-text">(required)</span>
+                            </label>
+
+                            <select
+                                id="inventory-size"
+                                name="inventory-size"
+                                required
+                            >
+                                <option
+                                    value=""
+                                    disabled
+                                    selected
+                                >
+                                    Select an inventory size ...
+                                </option>
+
+                                <option value="small">
+                                    Small - under 500 items
+                                </option>
+
+                                <option value="medium">
+                                    Medium - 500 to 2,000 items
+                                </option>
+
+                                <option value="large">
+                                    Large - 2,001 to 10,000 items
+                                </option>
+
+                                <option value="very-large">
+                                    Very Large - over 10,000 items
+                                </option>
+                            </select>
+
+
+                            <label for="date">
+                                Preferred Service Date
+                            </label>
+
+                            <input
+                                type="date"
+                                id="date"
+                                name="date"
+                            >
+
+
+                            <label for="message">
+                                Additional Information
+                            </label>
+
+                            <textarea
+                                id="message"
+                                name="message"
+                                rows="6"
+                                placeholder="Tell us anything important about your inventory or service request."
+                            ></textarea>
+
+                        </fieldset>
+
+
+                        <button
+                            class="primary-button form-submit"
+                            type="submit"
+                        >
+                            Send Inventory Request
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer class="site-footer">
+
+        <div class="footer-container">
+
+            <div class="footer-brand">
+
+                <a class="brand" href="index.html">
+
+                    <span class="brand-icon" aria-hidden="true">✓</span>
+
+                    <span class="brand-text">
+                        <span class="brand-name">CountWise</span>
+                        <span class="brand-subtitle">Inventory Services</span>
+                    </span>
+
+                </a>
+
+                <p>
+                    Accurate inventory information for smarter business
+                    decisions.
+                </p>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <h2>Quick Links</h2>
+
+                <a href="index.html">Home</a>
+                <a href="services.html">Services</a>
+                <a href="contact.html">Contact</a>
+
+            </div>
+
+
+            <div class="footer-contact">
+
+                <h2>Get in Touch</h2>
+
+                <p>
+                    Tell us what inventory support you need.
+                </p>
+
+                <a href="contact.html">
+                    Start a request
+                    <span aria-hidden="true">→</span>
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>
+                &copy; <span id="current-year"></span>
+                CountWise Inventory Services. All rights reserved.
+            </p>
+
+            <p>
+                Last Modified:
+                <span id="last-modified"></span>
+            </p>
+
+        </div>
+
+    </footer>
+
+</body>
+</html>

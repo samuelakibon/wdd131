@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Samuel Akibon">
+    <meta
+        name="description"
+        content="Confirmation of your CountWise Inventory Services request."
+    >
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:wght@400;500;600&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="styles/site.css">
+    <link rel="stylesheet" href="styles/site-large.css">
+
+    <script src="scripts/site.js" defer></script>
+
+    <title>Request Received | CountWise Inventory Services</title>
+</head>
+
+<body>
+
+    <header class="site-header">
+
+        <div class="header-container">
+
+            <a
+                class="brand"
+                href="index.html"
+                aria-label="CountWise Inventory Services home"
+            >
+                <span class="brand-icon" aria-hidden="true">✓</span>
+
+                <span class="brand-text">
+                    <span class="brand-name">CountWise</span>
+                    <span class="brand-subtitle">Inventory Services</span>
+                </span>
+            </a>
+
+            <button
+                class="menu-button"
+                type="button"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+                aria-controls="primary-navigation"
+            >
+                ☰
+            </button>
+
+            <nav
+                class="primary-navigation"
+                id="primary-navigation"
+                aria-label="Main navigation"
+            >
+                <a href="index.html">Home</a>
+                <a href="services.html">Services</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <section
+            class="confirmation-hero"
+            aria-labelledby="confirmation-heading"
+        >
+
+            <div class="section-container">
+
+                <div class="confirmation-icon" aria-hidden="true">
+                    ✓
+                </div>
+
+                <p class="eyebrow">
+                    Request Received
+                </p>
+
+                <h1 id="confirmation-heading">
+                    Thank You
+                </h1>
+
+                <p id="confirmation-message">
+                    Your inventory service request has been received.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <section
+            class="confirmation-section"
+            aria-labelledby="details-heading"
+        >
+
+            <div class="section-container">
+
+                <div class="confirmation-card">
+
+                    <div class="section-heading">
+
+                        <p class="eyebrow">
+                            Request Details
+                        </p>
+
+                        <h2 id="details-heading">
+                            Your Submitted Information
+                        </h2>
+
+                    </div>
+
+
+                    <div id="request-details">
+                        <p>
+                            Loading your request details...
+                        </p>
+                    </div>
+
+
+                    <div class="confirmation-actions">
+
+                        <a
+                            class="primary-button"
+                            href="index.html"
+                        >
+                            Return Home
+                        </a>
+
+                        <a
+                            class="secondary-button"
+                            href="contact.html"
+                        >
+                            Submit Another Request
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="request-counter">
+
+                    <p>
+                        CountWise has received
+                        <strong id="review-counter">0</strong>
+                        request(s) through this website.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer class="site-footer">
+
+        <div class="footer-container">
+
+            <div class="footer-brand">
+
+                <a class="brand" href="index.html">
+
+                    <span
+                        class="brand-icon"
+                        aria-hidden="true"
+                    >
+                        ✓
+                    </span>
+
+                    <span class="brand-text">
+                        <span class="brand-name">
+                            CountWise
+                        </span>
+
+                        <span class="brand-subtitle">
+                            Inventory Services
+                        </span>
+                    </span>
+
+                </a>
+
+                <p>
+                    Accurate inventory information for smarter business
+                    decisions.
+                </p>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <h2>
+                    Quick Links
+                </h2>
+
+                <a href="index.html">
+                    Home
+                </a>
+
+                <a href="services.html">
+                    Services
+                </a>
+
+                <a href="contact.html">
+                    Contact
+                </a>
+
+            </div>
+
+
+            <div class="footer-contact">
+
+                <h2>
+                    Need More Help?
+                </h2>
+
+                <p>
+                    You can submit another inventory service request at
+                    any time.
+                </p>
+
+                <a href="contact.html">
+                    Contact CountWise
+                    <span aria-hidden="true">→</span>
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>
+                &copy;
+                <span id="current-year"></span>
+                CountWise Inventory Services.
+                All rights reserved.
+            </p>
+
+            <p>
+                Last Modified:
+                <span id="last-modified"></span>
+            </p>
+
+        </div>
+
+    </footer>
+
+</body>
+</html>
+
